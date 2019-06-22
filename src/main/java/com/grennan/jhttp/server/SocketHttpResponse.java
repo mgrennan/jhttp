@@ -1,12 +1,12 @@
-package eu.rekawek.jhttp.server;
+package com.grennan.jhttp.server;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import eu.rekawek.jhttp.api.HttpRequest;
-import eu.rekawek.jhttp.api.HttpResponse;
+import com.grennan.jhttp.api.HttpRequest;
+import com.grennan.jhttp.api.HttpResponse;
 
 /**
  * This class wraps the socket's output stream and allows to send HTTP request status, headers and response

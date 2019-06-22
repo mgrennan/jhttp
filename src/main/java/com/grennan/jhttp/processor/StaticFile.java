@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.processor;
+package com.grennan.jhttp.processor;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
@@ -6,9 +6,9 @@ import java.net.URLConnection;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-import eu.rekawek.jhttp.api.HttpRequest;
-import eu.rekawek.jhttp.api.HttpResponse;
-import eu.rekawek.jhttp.api.RequestProcessor;
+import com.grennan.jhttp.api.HttpRequest;
+import com.grennan.jhttp.api.HttpResponse;
+import com.grennan.jhttp.api.RequestProcessor;
 
 /**
  * This processor renders a static file.

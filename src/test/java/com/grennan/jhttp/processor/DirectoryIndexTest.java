@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.processor;
+package com.grennan.jhttp.processor;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import eu.rekawek.jhttp.api.HttpRequest;
-import eu.rekawek.jhttp.api.HttpResponse;
+import com.grennan.jhttp.api.HttpRequest;
+import com.grennan.jhttp.api.HttpResponse;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 

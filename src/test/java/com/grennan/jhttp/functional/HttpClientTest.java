@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.functional;
+package com.grennan.jhttp.functional;
 
 import java.io.IOException;
 import java.net.ConnectException;
@@ -20,7 +20,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import eu.rekawek.jhttp.server.HttpServer;
+import com.grennan.jhttp.server.HttpServer;
 import static org.junit.Assert.*;
 
 public class HttpClientTest {

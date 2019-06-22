@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.server;
+package com.grennan.jhttp.server;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
@@ -9,9 +9,9 @@ import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eu.rekawek.jhttp.api.HttpRequest;
-import eu.rekawek.jhttp.api.HttpResponse;
-import eu.rekawek.jhttp.api.RequestProcessor;
+import com.grennan.jhttp.api.HttpRequest;
+import com.grennan.jhttp.api.HttpResponse;
+import com.grennan.jhttp.api.RequestProcessor;
 
 /**
  * The purpose of this class is to take the connected client socket, create a {@link HttpRequest} and

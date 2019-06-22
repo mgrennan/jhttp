@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.api;
+package com.grennan.jhttp.api;
 
 import java.io.UncheckedIOException;
 

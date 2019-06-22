@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.server;
+package com.grennan.jhttp.server;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
@@ -12,11 +12,11 @@ import java.util.concurrent.Executors;
 
 import org.apache.commons.io.IOUtils;
 
-import eu.rekawek.jhttp.api.RequestProcessor;
-import eu.rekawek.jhttp.processor.DirectoryIndex;
-import eu.rekawek.jhttp.processor.DirectoryListing;
-import eu.rekawek.jhttp.processor.ResourceNotFound;
-import eu.rekawek.jhttp.processor.StaticFile;
+import com.grennan.jhttp.api.RequestProcessor;
+import com.grennan.jhttp.processor.DirectoryIndex;
+import com.grennan.jhttp.processor.DirectoryListing;
+import com.grennan.jhttp.processor.ResourceNotFound;
+import com.grennan.jhttp.processor.StaticFile;
 
 /**
  * This class creates a server socket, registers all processors and for each connection creates a

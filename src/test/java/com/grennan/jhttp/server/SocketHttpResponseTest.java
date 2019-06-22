@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.server;
+package com.grennan.jhttp.server;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import org.apache.commons.io.IOUtils;
 import org.junit.Before;
 import org.junit.Test;
 
-import eu.rekawek.jhttp.api.HttpRequest;
+import com.grennan.jhttp.api.HttpRequest;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 

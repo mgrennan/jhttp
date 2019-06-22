@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp;
+package com.grennan.jhttp;
 
 import java.io.IOException;
 import java.nio.file.Paths;
@@ -10,7 +10,7 @@ import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-import eu.rekawek.jhttp.server.HttpServer;
+import com.grennan.jhttp.server.HttpServer;
 
 public final class Main {
 

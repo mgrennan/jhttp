@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.server;
+package com.grennan.jhttp.server;
 
 import java.util.ArrayList;
 import java.util.Collections;

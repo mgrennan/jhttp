@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.server;
+package com.grennan.jhttp.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import eu.rekawek.jhttp.api.HttpRequest;
-import static eu.rekawek.jhttp.LambdaUtils.takeWhile;
+import com.grennan.jhttp.api.HttpRequest;
+import static com.grennan.jhttp.LambdaUtils.takeWhile;
 
 /**
  * This class parses the socket's input stream and exposes result in a form of a {@link HttpRequest}

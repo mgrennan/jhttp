@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp.api;
+package com.grennan.jhttp.api;
 
 import java.nio.file.Path;
 import java.util.List;
@@ -9,6 +9,7 @@ import aQute.bnd.annotation.ProviderType;
  * An incoming request.
  * 
  * @author Tomasz Rękawek
+ * @author Mark Grennan
  *
  */
 @ProviderType

@@ -1,4 +1,4 @@
-package eu.rekawek.jhttp;
+package com.grennan.jhttp;
 
 import java.util.Iterator;
 import java.util.Spliterators;

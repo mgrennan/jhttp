@@ -1,14 +1,14 @@
-package eu.rekawek.jhttp.processor;
+package com.grennan.jhttp.processor;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
 
-import eu.rekawek.jhttp.api.HttpRequest;
-import eu.rekawek.jhttp.api.HttpResponse;
-import eu.rekawek.jhttp.api.RequestProcessor;
+import com.grennan.jhttp.api.HttpRequest;
+import com.grennan.jhttp.api.HttpResponse;
+import com.grennan.jhttp.api.RequestProcessor;
 
-import static eu.rekawek.jhttp.LambdaUtils.curry;
+import static com.grennan.jhttp.LambdaUtils.curry;
 
 /**
  * This processor renders the {@code index.htm[l]} file, if it exists in the requested directory.
